@@ -60,3 +60,28 @@ docker ps
 docker inspect (이미지 명)
 // 해당 이미지의 정보를 가져옴
 ```
+
+# Remove Image
+
+<img src="./gitImages/Docker_Command_RMI.PNG">
+
+```javascript
+docker rmi (이미지 ID)
+// 해당 이미지의 정보를 삭제함
+```
+
+# Remove Container
+
+```javascript
+docker stop (컨테이너 별명 혹은 ID)
+// 컨테이너를 중지함 (삭제 전 필수사항)
+docker rm (컨테이너 별명 혹은 ID)
+// 컨테이너를 삭제한다
+```
+
+# Pull Image
+
+```javascript
+docker pull (Image 이름)
+// 해당 이미지를 설치함
+```
